@@ -1,5 +1,5 @@
 {
-  "name": "react-web-config",
+  "name": "@hortau/react-web-config",
   "version": "2.0.0",
   "description": "react-native-config for web",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanhauhau/react-web-config.git"
+    "url": "git+https://github.com/hortau/react-web-config.git"
   },
   "keywords": [
     "react",
@@ -27,9 +27,9 @@
   "author": "Tan Li Hau <lhtan93@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tanhauhau/react-web-config/issues"
+    "url": "https://github.com/hortau/react-web-config/issues"
   },
-  "homepage": "https://github.com/tanhauhau/react-web-config#readme",
+  "homepage": "https://github.com/hortau/react-web-config#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "webpack": "^5.24.3"

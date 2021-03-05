@@ -1,7 +1,6 @@
 # react-web-config
 
-[![npm version](https://badge.fury.io/js/react-web-config.svg)](https://badge.fury.io/js/react-web-config)
-[![Donate](https://img.shields.io/gratipay/user/tanhauhau.svg)](https://gratipay.com/~tanhauhau/)
+[![npm version](https://badge.fury.io/js/%40hortau%2Freact-web-config.svg)](https://badge.fury.io/js/%40hortau%2Freact-web-config)
 
 [react-native-config](https://github.com/luggit/react-native-config) for Web.
 Config variables for React Native apps *and React Native Web apps*
@@ -42,7 +41,6 @@ However if you want to have Step 2 to work on a `react-native-web` project, you 
 ```diff
   // webpack.config.js
 
-  const webpack = require('webpack');
 + const ReactWebConfig = require('react-web-config/lib/ReactWebConfig').ReactWebConfig;
 + const path = require('path');
 
