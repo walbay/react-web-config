@@ -55,7 +55,7 @@ However if you want to have Step 2 to work on a `react-native-web` project, you 
       alias: [
         ...
 +       /* set alias from react-native-config to react-web-config */
-+       'react-native-config': 'react-web-config',
++       'react-native-config': '@superdupertrivia/react-web-config',
         'react-native': 'react-native-web'
       ]
     ]
