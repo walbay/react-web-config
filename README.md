@@ -1,4 +1,4 @@
-# react-web-config
+# @superdupertrivia/react-web-config
 
 [![npm version](https://badge.fury.io/js/%40hortau%2Freact-web-config.svg)](https://badge.fury.io/js/%40hortau%2Freact-web-config)
 
@@ -22,29 +22,27 @@ Step 1 and 2 is what you have done if you follow the [guides](https://github.com
 
 ```js
 // .env
-
-API_URL=https://myapi.com
-GOOGLE_MAPS_API_KEY=abcdefgh
+SUPER_DUPER_API=https://superdupertrivia.com
+SECRET_KEY=superdupersecret
 ```
 
 2) Then access variables defined there from your app:
 
 ```js
   // app.js
-  import Config from 'react-native-config'
-  Config.API_URL  // 'https://myapi.com'
+  import Config from '@superdupertrivia/react-native-config'
+  Config.SUPER_DUPER_API  // 'https://superdupertrivia.com'
 ```
-
 
 However if you want to have Step 2 to work on a `react-native-web` project, you will need to configure the following in your `webpack.config.js`:
 
 ```diff
   // webpack.config.js
 
-+ const ReactWebConfig = require('react-web-config/lib/ReactWebConfig').ReactWebConfig;
++ const ReactWebConfig = require('@superdupertrivia/react-web-config/lib/ReactWebConfig').ReactWebConfig;
 + const path = require('path');
 
-+ const envFilePath = path.resolve(__dirname, '.env');
++ const envFilePath = process.env.ENVFILE || path.resolve(__dirname, '.env');
 
   module.exports = {
     ...
