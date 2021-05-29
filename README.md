@@ -63,8 +63,9 @@ However if you want to have Step 2 to work on a `react-native-web` project, you 
 ```
 
 ### Contributors
-https://github.com/tanhauhau
-https://github.com/Hortau/react-web-config
+- @tanhauhau (Original Author)
+- @Hortau (Updated to webpack5)
+- @superdupertrivia (Maintainer)
 
 ### License
 
