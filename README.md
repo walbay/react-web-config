@@ -1,6 +1,6 @@
-# @superdupertrivia/react-web-config
+# @walbay/react-web-config
 
-[![npm version](https://badge.fury.io/js/%40hortau%2Freact-web-config.svg)](https://badge.fury.io/js/%40hortau%2Freact-web-config)
+[![npm version](https://badge.fury.io/js/%40walbay%2Freact-web-config.svg)](https://badge.fury.io/js/%40walbay%2Freact-web-config)
 
 [react-native-config](https://github.com/luggit/react-native-config) for Web.
 Config variables for React Native apps *and React Native Web apps*
@@ -30,7 +30,7 @@ SECRET_KEY=superdupersecret
 
 ```js
   // app.js
-  import Config from '@superdupertrivia/react-native-config'
+  import Config from '@walbay/react-native-config'
   Config.SUPER_DUPER_API  // 'https://superdupertrivia.com'
 ```
 
@@ -55,7 +55,7 @@ However if you want to have Step 2 to work on a `react-native-web` project, you 
       alias: [
         ...
 +       /* set alias from react-native-config to react-web-config */
-+       'react-native-config': '@superdupertrivia/react-web-config',
++       'react-native-config': '@walbay/react-web-config',
         'react-native': 'react-native-web'
       ]
     ]
@@ -64,8 +64,8 @@ However if you want to have Step 2 to work on a `react-native-web` project, you 
 
 ### Contributors
 - @tanhauhau (Original Author)
-- @Hortau (Updated to webpack5)
-- @superdupertrivia (Maintainer)
+- @Hortau
+- @walbay
 
 ### License
 
